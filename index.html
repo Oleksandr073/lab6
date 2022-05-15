@@ -1,0 +1,167 @@
+﻿<!-- lab 6 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- -->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="img/favicon.ico">
+    <script src="https://kit.fontawesome.com/aff9abf0ec.js" crossorigin="anonymous"></script>
+    <title>Візитка</title>
+</head>
+
+<body>
+
+<main class="container">
+
+    <div class="row">
+
+        <aside class="info col-4 text-center">
+
+            <img class="info_ava img-fluid rounded-circle col-8" src="img/ava-2.jpg" alt="user photo">
+            <h1 class="info_name text-center">Sasha <b>Brown</b></h1>
+            <h3 class="info_prof text-center">Creative Director</h3>
+
+            <div class="info_soc row justify-content-center">
+                <a class="info_link text-decoration-none text-dark col-1" href="https://facebook.com/" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="info_link text-decoration-none text-dark col-1" href="https://twitter.com/" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a class="info_link text-decoration-none text-dark col-1" href="https://www.linkedin.com/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+
+            <div class="info_contact col-10">
+                <a class="info_item text-decoration-none text-dark text-start row" href="https://www.google.com/calendar" target="_blank">
+                    <div class="info_img col-1">
+                        <i class="far fa-calendar"></i>
+                    </div>
+                    <h4 class="info_text col-10">March 25, 2002</h4>
+                </a>
+                <a class="info_item text-decoration-none text-dark text-start row" href="https://www.google.com/maps/" target="_blank">
+                    <div class="info_img col-1 ">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h4 class="info_text col-10">San-Francisco, USA</h4>
+                </a>
+                <a class="info_item text-decoration-none text-dark text-start row" href="mailto:example@gmail.com" target="_blank">
+                    <div class="info_img col-1">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <h4 class="info_text col-10">example@gmail.com</h4>
+                </a>
+                <a class="info_item text-decoration-none text-dark text-start row" href="tel:+14251234563" target="_blank">
+                    <div class="info_img col-1">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h4 class="info_text col-10">+1(070)123-4567</h4>
+                </a>
+                <a class="info_item text-decoration-none text-dark text-start row" href="https://www.skype.com/" target="_blank">
+                    <div class="info_img col-1">
+                        <i class="fab fa-skype"></i>
+                    </div>
+                    <h4 class="info_text col-10">Sasha_Brown</h4>
+                </a>
+            </div> <!-- info_contact -->
+
+            <a class="btn btn-primary btn-lg col-10" href="/img/ava-2.jpg" download>
+                <div class="info_img">
+                    <i class="fas fa-download"></i>
+                </div>
+                <h4 class="">Download CV</h4>
+            </a>
+
+        </aside> <!-- info -->
+
+        <section class="content col-8">
+
+            <header class="header d-flex justify-content-end">
+                <nav class="nav">
+                   <a class="nav_link text-uppercase text-decoration-none text-dark fs-5" href="#">about</a>
+                   <a class="nav_link text-uppercase text-decoration-none text-dark fs-5" href="#">resume</a>
+                   <a class="nav_link text-uppercase text-decoration-none text-dark fs-5" href="#">portfolio</a>
+                   <a class="nav_link text-uppercase text-decoration-none text-dark fs-5" href="#">blog</a>
+                   <a class="nav_link text-uppercase text-decoration-none text-dark fs-5" href="#">contact</a>
+                </nav>
+            </header>
+
+            <h2 class="content_title text-capitalize fw-bold">About Me</h2>
+            <div class="content_line"></div>
+            <div class="content_text"><p>I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development
+            and print media. | enjoy turning complex problems into simple, beautiful and intuitive designs.</p>
+            <p>My job is to build your website so that it is functional and user-friendly but at the same time
+            attractive. Moreover, | add personal touch to your product and make sure that is eye-catching
+            and easy to use. My aim is to bring across your message and identity in the most creative way. |
+            created web design for many famous brand companies.</p>
+            </div>
+            <h3 class="content_title2 text-capitalize fw-bold">What I'm Doing</h3>
+
+            <div class="services row justify-content-evenly">
+                <div class="services_item col-5 text-center card border-dark">
+                    <div class="">
+                        <div class="services_photo">
+                            <img src="img/1.png" alt="web design icon">
+                        </div>
+                        <h4 class="services_title text-capitalize fw-bold">Web design</h4>
+                        <p class="services_text">The most modern and high-quality design made at a professional level.</p>
+                    </div>
+                </div>
+                <div class="services_item col-5 text-center card border-dark">
+                    <div class="">
+                        <div class="services_photo">
+                            <img src="img/2.png" alt="web development icon">
+                        </div>
+                        <h4 class="services_title text-capitalize fw-bold">Web development</h4>
+                        <p class="services_text">High-quality development of sites at the professional level.</p>
+                    </div>
+                </div>
+                <div class="services_item col-5 text-center card border-dark">
+                    <div class="">
+                        <div class="services_photo">
+                            <img src="img/3.png" alt="mobile apps icon">
+                        </div>
+                        <h4 class="services_title text-capitalize fw-bold">Mobile apps</h4>
+                        <p class="services_text">Professional development of applications for iOS and Android</p>
+                    </div>
+                </div>
+                <div class="services_item col-5 text-center card border-dark">
+                    <div class="">
+                        <div class="services_photo">
+                            <img src="img/4.png" alt="photography icon">
+                        </div>
+                        <h4 class="services_title text-capitalize fw-bold">photography</h4>
+                        <p class="services_text">I make high-quality photos of any category at a professional level.</p>
+                    </div>
+                </div>
+            </div> <!-- services -->
+
+        </section> <!-- content -->
+
+    </div>
+
+</main> <!-- container -->
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+-->
+
+</body>
+
+</html>
